@@ -15,6 +15,8 @@ namespace ListViewExercicios
         public Exercicio03()
         {
             InitializeComponent();
+
+            Console.WriteLine("Diego Monster Pack");
         }
     }
 }
