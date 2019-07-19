@@ -10,7 +10,7 @@ namespace ListViewExercicios
         {
             InitializeComponent();
 
-            MainPage = new Exercicio02();
+            MainPage = new Exercicio03();
         }
 
         protected override void OnStart()
