@@ -6,9 +6,9 @@ namespace ListViewExercicios.Models
 {
     public class Produto
     {
-        private string Nome { get; set; }
-        private string Preco { get; set; }
-        private string Imagem { get; set; }
+        public string Nome { get; set; }
+        public string Preco { get; set; }
+        public string Imagem { get; set; }
 
         public List<Produto> GetProdutos()
         {
