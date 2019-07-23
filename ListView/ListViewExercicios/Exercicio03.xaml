@@ -5,7 +5,15 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="ListViewExercicios.Exercicio03">
-    
-    
+
+    <ListView x:Name="listview">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ImageCell Text="{Binding Nome}"
+                           Detail="{Binding Preco}"
+                           ImageSource="{Binding Imagem}"/>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
     
 </ContentPage>
